@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Long Demo Page — PlugNPlay AI Tools</title>
+  <meta name="description" content="A very long demo HTML page filled with content for testing text cleaning and parsing tools." />
+  <style>
+    /* Simple page styles to create some structure and noise */
+    :root {
+      --accent: #3b82f6;
+      --muted: #6b7280;
+      --bg: #f8fafc;
+      --card: #ffffff;
+    }
+    html,body{margin:0;padding:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+    body{background:linear-gradient(180deg,#f8fafc 0%, #eef2ff 100%); color:#0f172a; line-height:1.6}
+    header{background:linear-gradient(90deg, rgba(59,130,246,0.08), rgba(99,102,241,0.03)); padding:28px 24px; border-bottom:1px solid rgba(15,23,42,0.04)}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    nav{display:flex;gap:16px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:center}
+    .hero-card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .cta{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:8px;text-decoration:none}
+    .muted{color:var(--muted)}
+    section{margin-top:28px}
+    h1,h2,h3{margin:0 0 12px 0}
+    p{margin:10px 0}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:white;padding:16px;border-radius:10px;box-shadow:0 6px 15px rgba(15,23,42,0.04)}
+    pre{background:#0f172a;color:#fff;padding:16px;border-radius:8px;overflow:auto}
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    table th, table td{padding:8px;border:1px solid #e6edf3;text-align:left}
+    footer{margin-top:48px;padding:24px 0;color:var(--muted);text-align:center}
+    .small{font-size:13px;color:#94a3b8}
+    .tags {display:flex;gap:8px;flex-wrap:wrap}
+    .tag {font-size:12px;padding:6px 10px;border-radius:999px;background:#eef2ff;color:#1e40af}
+    /* responsive */
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.grid-3{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <!-- Header / nav -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" style="font-weight:800;font-size:18px;color:#0f172a">PlugNPlay AI Tools</a>
+        <div style="flex:1"></div>
+        <a href="#features">Features</a>
+        <a href="#tools">Tools</a>
+        <a href="#docs">Docs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="container hero" id="top">
+    <div class="hero-card">
+      <h1>Long Demo Page for Tool Testing</h1>
+      <p class="muted">This page contains lots of messy HTML: tags, punctuation, code snippets, tables, and repetitive content — ideal for testing scrapers, text cleaners, parsers, and structured-output tools.</p>
+      <p>
+        <a class="cta" href="#tools">Try Tools</a>
+        <span style="margin-left:12px" class="small muted">Perfect for text-cleaner &amp; RAG testing</span>
+      </p>
+
+      <section id="features">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Multiple long paragraphs with Lorem ipsum and real-like text.</li>
+          <li>HTML tags, inline code, lists, tables and forms to mimic real webpages.</li>
+          <li>Example product cards, blog posts, and comments sections.</li>
+        </ul>
+      </section>
+    </div>
+
+    <aside class="hero-card">
+      <h3>Quick Links</h3>
+      <div class="muted small">
+        <p><strong>Generated:</strong> 2025-09-20</p>
+        <p><strong>Author:</strong> Prince Chidera</p>
+        <div class="tags">
+          <span class="tag">testing</span><span class="tag">scraping</span><span class="tag">text-cleaning</span>
+        </div>
+      </div>
+      <hr style="margin:12px 0">
+      <img src="https://via.placeholder.com/320x180.png?text=Demo+Image" alt="demo" style="width:100%;border-radius:8px">
+      <p class="small muted" style="margin-top:8px">Image placeholder — usually scraped as &lt;img src="..."&gt;</p>
+    </aside>
+  </div>
+
+  <div class="container">
+    <!-- LONG content block: multiple paragraphs -->
+    <section id="long">
+      <h2>Long article content</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia arcu non sem fermentum,
+        vitae suscipit mauris faucibus. Quisque eget eros sed nibh bibendum pharetra. Phasellus ac
+        nibh sit amet mi fermentum tincidunt. Sed ac sem sit amet ligula viverra tristique. Pellentesque
+        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi.
+        Suspendisse potenti. Praesent et urna a neque feugiat tincidunt. Sed non lectus non risus
+        suscipit elementum. Integer laoreet arcu ac ultricies tristique. Curabitur vulputate, augue at
+        mattis elementum, ipsum lectus iaculis ipsum, at bibendum mi justo vel orci.
+      </p>
+
+      <!-- Repeated long paragraphs to increase page size -->
+      <p>
+        Quisque ac tortor eu felis tristique bibendum. Aliquam erat volutpat. Praesent convallis, diam id
+        imperdiet elementum, elit sapien tincidunt tellus, sit amet tincidunt est neque sed orci.
+        Vestibulum efficitur, mauris sit amet faucibus posuere, lectus metus congue lorem, id hendrerit
+        velit arcu in eros. Cras nec molestie sapien, non scelerisque nisl. Maecenas vitae sem in arcu
+        hendrerit commodo. Aenean sed dui magna. Phasellus convallis nisl sed sem volutpat, nec maximus
+        augue posuere. Integer faucibus mi a orci faucibus, sed dictum magna dictum. Sed suscipit, turpis
+        nec elementum cursus, erat augue aliquet lorem, vel gravida arcu quam vitae augue.
+      </p>
+
+      <p>
+        In hac habitasse platea dictumst. Etiam lorem elit, fermentum at dictum a, aliquet ut odio.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam sit
+        amet sagittis augue. Curabitur sed placerat velit. Integer quis lectus sed arcu commodo varius.
+        Donec tincidunt purus nec felis venenatis cursus. Proin ultricies lorem vel urna fermentum, vitae
+        pharetra urna bibendum.
+      </p>
+
+      <h3>Subsection: A messy code snippet</h3>
+      <pre><code>
+// Example JS - messy, contains inline comments and weird characters
+function example(input) {
+  // sanitize input
+  var out = input.replace(/&lt;[^&gt;]*&gt;/g, "");
+  console.log("Sanitized:", out);
+  return out;
+}
+
+/*
+  Block comment: This code is intentionally messy to mimic real-world scraped code.
+  It may contain URLs, emails like test@example.com, and special chars: © ™ ∑
+*/
+      </code></pre>
+
+      <h3>Bulleted content & lists</h3>
+      <ul>
+        <li>First item — with punctuation!!!</li>
+        <li>Second item — contains a <strong>strong</strong> tag and <em>emphasis</em>.</li>
+        <li>Third item — contains an email address: contact@company.example.com</li>
+        <li>Fourth item — a URL: https://example.com/foo?bar=baz#section</li>
+      </ul>
+
+      <h3>Ordered steps</h3>
+      <ol>
+        <li>Step one: fetch the HTML.</li>
+        <li>Step two: clean the text.</li>
+        <li>Step three: extract structured info (title, author, date).</li>
+        <li>Step four: store into database.</li>
+      </ol>
+
+      <h3>Table of sample data</h3>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Name</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Alice</td><td>Works at Foo &amp; Bar Inc.</td></tr>
+          <tr><td>2</td><td>Bob</td><td>Enjoys long walks on the beach.</td></tr>
+          <tr><td>3</td><td>Charlie</td><td>Available: charlie@example.org</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Repeated Blog Posts (simulated)</h3>
+
+      <!-- Repeat many "post" articles to create bulk -->
+      <!-- post 1 -->
+      <article class="card" style="margin-top:12px">
+        <h4>How to build reliable scrapers (Part 1)</h4>
+        <p class="muted small">By <strong>Jane Developer</strong> • Sep 18, 2025</p>
+        <p>Web scraping is a critical skill. First, ensure you respect robots.txt and rate limits. Second, use robust parsing libraries. Third, clean your output. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia arcu non sem fermentum, vitae suscipit mauris faucibus. Suspendisse potenti.</p>
+      </article>
+
+      <!-- post 2 -->
+      <article class="card" style="margin-top:12px">
+        <h4>How to build reliable scrapers (Part 2)</h4>
+        <p class="muted small">By <strong>Jane Developer</strong> • Sep 19, 2025</p>
+        <p>Detect dynamic content and render if necessary, or use headless browsers. Handle pagination. Normalize dates and currencies. Sed ac sem sit amet ligula viverra tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      </article>
+
+      <!-- post 3 - long -->
+      <article class="card" style="margin-top:12px">
+        <h4>Edge cases in text cleaning</h4>
+        <p class="muted small">By <strong>Data Team</strong> • Sep 20, 2025</p>
+        <p>
+          Text cleaning isn't just about stripping tags and punctuation. Consider unicode normalization, emoji handling, non-breaking spaces, and microformats. Many web pages include inline scripts, JSON-LD blocks, and comment nodes that should be ignored. Here is a long paragraph to test trimming and splitting:
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a purus vel magna commodo tristique. Nullam pharetra fermentum arcu, vitae facilisis lectus dictum ut. Donec eget tortor ante. Morbi et augue id quam gravida tincidunt nec sit amet augue. Aliquam orci arcu, pretium vitae vestibulum sed, gravida ac felis. Integer porttitor dignissim gravida. Proin volutpat egestas tortor, quis tempus massa ultricies sed. Pellentesque ut tellus id arcu mattis vulputate. Integer faucibus leo at nibh tristique, id tincidunt lectus pretium. Sed nec sem quis massa sagittis commodo. Phasellus pulvinar, metus in faucibus volutpat, risus ex dictum turpis, nec euismod justo lorem sit amet nunc. Nam vestibulum, sapien id porta fermentum, nisl eros tempor urna, sed scelerisque ex nibh vitae turpis.
+        </p>
+      </article>
+
+      <!-- long repeated filler -->
+      <p>
+        <!-- intentionally verbose block with punctuation & HTML -->
+        <strong>Note:</strong> the page contains lots of noise: &lt;script&gt; tags, &lt;style&gt; tags, trackers, and inline JSON-LD:
+      </p>
+
+      <pre><code type="application/ld+json">
+{ "@context": "http://schema.org",
+  "@type": "Article",
+  "headline": "Long Demo Page",
+  "author": {"@type":"Person","name":"Prince Chidera"},
+  "datePublished": "2025-09-20",
+  "publisher": {"@type":"Organization","name":"PlugNPlay"}
+}
+      </code></pre>
+
+      <h3>Comments (simulated)</h3>
+      <div style="margin-top:8px">
+        <div class="card">
+          <p><strong>Anonymous</strong> <span class="small muted">— Sep 20</span></p>
+          <p>Great article! I found the section on scraping super helpful. But what about sites with heavy JS?</p>
+        </div>
+        <div class="card" style="margin-top:8px">
+          <p><strong>Martha</strong> <span class="small muted">— Sep 20</span></p>
+          <p>Make sure you rotate IPs and throttle your requests. Also store timestamps in ISO format (2025-09-20T14:52:00Z).</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Tools / forms area -->
+    <section id="tools">
+      <h2>Interactive examples & forms</h2>
+      <p class="small muted">These forms are here to produce realistic POST/GET payloads for scraping / parsing tests.</p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h4>Subscribe</h4>
+          <form id="subscribe-form">
+            <label>Email:<br><input type="email" name="email" placeholder="you@example.com" style="width:100%;padding:8px;margin-top:6px"></label>
+            <label style="display:block;margin-top:8px">Name:<br><input type="text" name="name" style="width:100%;padding:8px;margin-top:6px"></label>
+            <button type="button" onclick="fakeSubscribe()" style="margin-top:8px;padding:8px 12px;border-radius:8px;background:#0ea5e9;color:#fff;border:none">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h4>Search</h4>
+          <label>Query:<br><input id="q" type="text" style="width:100%;padding:8px"></label>
+          <button type="button" onclick="fakeSearch()" style="margin-top:8px;padding:8px 12px;border-radius:8px;background:#34d399;color:#052e16;border:none">Search</button>
+        </div>
+
+        <div class="card">
+          <h4>Upload (simulated)</h4>
+          <p class="small muted">This is just a fake uploader UI to create more DOM elements.</p>
+          <input type="file" disabled>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Large lorem block for stress testing -->
+    <section id="filler">
+      <h2>Massive filler (for stress)</h2>
+      <!-- repeat the same paragraph multiple times to make it huge -->
+      <!-- (you can duplicate this block in your file if you need even more text) -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat libero at purus rhoncus, non ultrices massa lacinia. Aliquam at porta sapien, id aliquet metus. Integer in lectus vel massa interdum faucibus. Sed sit amet mauris non arcu aliquam gravida non nec ipsum. Curabitur nec nibh quis lorem luctus pharetra. Morbi posuere, lorem sed venenatis vehicula, turpis arcu suscipit lectus, sit amet lacinia enim nisl vel purus. Suspendisse potenti. Duis viverra lorem sit amet dui tristique, in volutpat sapien vehicula. Integer vitae massa vel arcu faucibus convallis. Integer sed lorem sed ante ultricies tincidunt.
+      </p>
+
+      <p>
+        Praesent sed purus sed odio feugiat lacinia. Sed dictum diam a libero hendrerit, vel venenatis lorem commodo. Vestibulum sit amet tortor non justo vehicula gravida ac vitae magna. Nulla facilisi. Proin ut bibendum arcu. Pellentesque ut libero et odio dictum laoreet. Cras feugiat eros in dolor vestibulum, nec blandit arcu congue.
+      </p>
+
+      <p>
+        Curabitur aliquet sapien in felis luctus, sed fringilla nunc pharetra. Maecenas vel orci id nunc varius efficitur quis non mi. Sed vitae dui a sem dictum volutpat. Etiam maximus dolor vel odio molestie, vulputate rhoncus ipsum lacinia. Maecenas vulputate, tortor sed malesuada rhoncus, nunc mi dictum enim, sed convallis risus orci nec justo. Aliquam in mauris id lectus venenatis laoreet. Integer porttitor lectus id nunc pulvinar, sed varius augue interdum.
+      </p>
+
+    </section>
+
+    <!-- Footer and scripts -->
+    <footer>
+      <div class="small muted">© 2025 PlugNPlay AI Tools — Demo Page • Built for testing text-cleaning and parsing tools.</div>
+      <div class="small muted">Made with ❤️ by Prince Chidera</div>
+    </footer>
+  </div>
+
+  <script>
+    // small interactive JS to add noise
+    function fakeSubscribe() {
+      const f = document.getElementById('subscribe-form');
+      alert('Thanks for subscribing! (This is a demo — no data is sent.)');
+    }
+    function fakeSearch() {
+      const q = document.getElementById('q').value || 'nothing';
+      alert('Search for: ' + q + ' (demo)');
+    }
+
+    // random noise: add a dynamic element
+    const dynamic = document.createElement('div');
+    dynamic.innerHTML = '<p class="small muted">Dynamic content loaded at ' + new Date().toISOString() + '</p>';
+    document.querySelector('.container').appendChild(dynamic);
+
+    // JSON data embedded in script tag (common in real pages)
+    window.__DATA__ = {"posts":[{"id":1,"title":"Demo Post","body":"This is a demo post body — contains <b>HTML</b> tags"}]};
+  </script>
+</body>
+</html>
